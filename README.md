@@ -15,3 +15,6 @@ This document is being created as notes for  NGS data analysis.
 
 ## Extracting the only reads mapped to the reference
 ```samtools view -b -F 4 reads.bam > reads.mapped.bam```
+
+## Sorting read according to read name
+```samtools sort -n reads.mapped.bam -o reads.mapped.sorted```
