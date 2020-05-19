@@ -8,5 +8,5 @@ This document is being created as notes for  NGS data analysis.
 ## Indexing of reference genome before alignment
 ```bwa index reference.fasta```
 
-# Aligning reference with raw reads
+## Aligning reference with raw reads
 ```bwa mem reference.fasta reads.fastq > reads.sam```
