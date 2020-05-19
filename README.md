@@ -1,3 +1,4 @@
+samtools sort SRR8549890.mapped.bam -o SRR8549890.mapped.sorted
 # Next-generation sequencing help document
 This document is being created as notes for  NGS data analysis.
 
@@ -17,4 +18,10 @@ This document is being created as notes for  NGS data analysis.
 ```samtools view -b -F 4 reads.bam > reads.mapped.bam```
 
 ## Sorting read according to read name
-```samtools sort -n reads.mapped.bam -o reads.mapped.sorted```
+```samtools sort reads.mapped.bam -o reads.mapped.sorted```
+
+## Indexing the BAM file
+```samtools index reads.mapped.sorted reads.mapped.bai```
+
+#Now you are ready to view the alignment on IGV Viewer! Enjoy :)
+
