@@ -23,5 +23,5 @@ This document is being created as notes for  NGS data analysis.
 ## Indexing the BAM file
 ```samtools index reads.mapped.sorted reads.mapped.bai```
 
-#Now you are ready to view the alignment on IGV Viewer! Enjoy :)
+# Now you are ready to view the alignment on IGV Viewer! Enjoy :)
 
