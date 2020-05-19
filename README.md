@@ -1,5 +1,5 @@
-samtools sort SRR8549890.mapped.bam -o SRR8549890.mapped.sorted
 # Next-generation sequencing help document
+# Chapter 1- Mapping and Visualization of NGS reads 
 This document is being created as notes for  NGS data analysis.
 
 1. Raw sequencing reads can be downloaded from NCBI SRA database.
