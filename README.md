@@ -13,5 +13,5 @@ This document is being created as notes for  NGS data analysis.
 ## Convering SAM to BAM file format
 ```samtools view -h -b -S reads.sam > reads.bam```
 
-## Extracing the only reads mapped to the reference
+## Extracting the only reads mapped to the reference
 ```samtools view -b -F 4 reads.bam > reads.mapped.bam```
