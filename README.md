@@ -25,3 +25,6 @@ This document is being created as notes for  NGS data analysis.
 
 # Now you are ready to view the alignment on IGV Viewer! Enjoy :)
 
+<img src="https://github.com/sauravbsaha/NGS_data_analysis/blob/master/igv_screenshot.png"
+     alt="IGV Screenshot"
+     style="float: center; margin-right: 10px;" />
