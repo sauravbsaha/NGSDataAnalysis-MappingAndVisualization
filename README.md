@@ -18,10 +18,13 @@ This document is being created as notes for  NGS data analysis.
 ```samtools view -b -F 4 reads.bam > reads.mapped.bam```
 
 ## Sorting read according to read name
-```samtools sort reads.mapped.bam -o reads.mapped.sorted```
+```samtools sort reads.mapped.bam -o reads.mapped.sorted.bam```
 
 ## Indexing the BAM file
-```samtools index reads.mapped.sorted reads.mapped.bai```
+```samtools index reads.mapped.sorted.bam reads.mapped.bai```
+
+## Finding the average coverage for the mapped bases (option -a with depth can be used for including upmapped reads)
+```samtools depth  reads.mapped.sorted.bam  |  awk '{sum+=$3} END { print "Average = ",sum/NR}'```
 
 # Now you are ready to view the alignment on IGV Viewer! Enjoy :)
 
