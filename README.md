@@ -29,4 +29,4 @@ This document is being created as notes for  NGS data analysis.
      alt="IGV Screenshot"
      style="float: center; margin-right: 10px;" />
 
-* Note: IGV would require mapped reads sorted in bam format with bai index file in the same directory 
+### Note: IGV would require mapped reads sorted in bam format with bai index file in the same directory 
